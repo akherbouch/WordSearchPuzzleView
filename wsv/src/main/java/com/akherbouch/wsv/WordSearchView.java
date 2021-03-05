@@ -98,7 +98,7 @@ public class WordSearchView extends SurfaceView implements Runnable, LifecycleOb
         int[] indexes = CommonUtil.INSTANCE.randomIndexesWithKey(resColors.length, puzzle.getAnswers().get(0));// make list unique for each level
         for(int i : indexes)  this.colors.add(resColors[i]);
         int textSize = 100/puzzle.getRows() + puzzle.getRows()/3;
-        this.textPaint = DrawUtil.INSTANCE.createTextPaintFromResources(getContext(), R.font.aab, textSize, 0xffdddddd);
+        this.textPaint = DrawUtil.INSTANCE.createTextPaintFromResources(getContext(), R.font.opensans_exb, textSize, 0xffdddddd);
     }
 
     private boolean isLoaded = false;
