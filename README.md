@@ -13,8 +13,6 @@
 <img src="https://user-images.githubusercontent.com/35242313/110139632-89e52780-7dd3-11eb-9afe-9a17390adb42.png" width="700" height="420"/>
 </p>
 
-## Installation
-
 ## Usage
 
 
